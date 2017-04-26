@@ -16,7 +16,8 @@ defmodule Eblog.Router do
   scope "/", Eblog do
     pipe_through :browser # Use the default browser stack
 
-    get "/", PageController, :index
+    get "/", PostController, :index
+    get "/post/:post_id", PostController, :show
   end
 
   # Other scopes may use custom stacks.

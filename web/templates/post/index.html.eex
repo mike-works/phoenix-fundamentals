@@ -1,0 +1,9 @@
+<h1>Index of Posts</h1>
+
+<ul>
+  <%= for post_id <- [1, 2, 3] do %>
+    <li>
+      <a href="/post/<%=post_id%>">Post <%= post_id %> </a>
+    </li>
+  <% end %>
+</ul>

@@ -11,7 +11,7 @@ defmodule Mike do
     required_param = Keyword.get(opts, :mandatory_param)
     IO.puts required_param
     cond do
-      Map.has_key?(conn.params, required_param) -> conn
+      true || Map.has_key?(conn.params, required_param) -> conn
       true -> reject(conn, required_param)
     end
   end

@@ -1,0 +1,2 @@
+<%= link "< Back", to: post_path(@conn, :index) %>
+<h1>A blog post: ____</h1>
