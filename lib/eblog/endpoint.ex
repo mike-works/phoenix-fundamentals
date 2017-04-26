@@ -29,7 +29,7 @@ defmodule Eblog.Endpoint do
     pass: ["*/*"],
     json_decoder: Poison
 
-  plug Mike
+  plug Mike#, mandatory_param: "required"
 
   plug Plug.MethodOverride
   plug Plug.Head
