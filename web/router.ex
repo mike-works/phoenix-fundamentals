@@ -20,7 +20,8 @@ defmodule Eblog.Router do
   end
 
   # Other scopes may use custom stacks.
-  # scope "/api", Eblog do
-  #   pipe_through :api
-  # end
+  scope "/api", Eblog do
+    pipe_through :api
+    get "/status", StatusController, :get_status
+  end
 end
