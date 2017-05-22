@@ -1,5 +1,7 @@
 # Eblog
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/mike-north/phoenix-fundamentals.svg)](https://greenkeeper.io/)
+
 To start your Phoenix app:
 
   * Install dependencies with `mix deps.get`
