@@ -1,6 +1,7 @@
 {
-  "repository": {},
-  "license": "MIT",
+  "repository": "https://github.com/mike-north/phoenix-fundamentals",
+  "private": true,
+  "license": "NOLICENSE",
   "scripts": {
     "deploy": "brunch build --production",
     "watch": "brunch watch --stdin"
