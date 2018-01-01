@@ -10,8 +10,8 @@
 </p> 
 
 <p align='center'>
-  <a href="https://travis-ci.org/mike-north/phoenix-fundamentals" title="Build Status">
-    <img title="Build Status" src="https://travis-ci.org/mike-north/phoenix-fundamentals.svg?branch=solutions"/>
+  <a href="https://travis-ci.org/mike-works/phoenix-fundamentals" title="Build Status">
+    <img title="Build Status" src="https://travis-ci.org/mike-works/phoenix-fundamentals.svg?branch=solutions"/>
   </a>
   <a href="https://mike.works/course/phoenix-fundamentals-f8c47eb" title="Phoenix Fundamentals">
     <img title="Course Outline" src="https://img.shields.io/badge/mike.works-course%20outline-blue.svg"/>
@@ -32,7 +32,7 @@ Yes! **[Here are the slides](https://docs.mike.works/phoenix-fundamentals)**, an
 
 * Next, clone this project
 ```sh
-git clone https://github.com/mike-north/phoenix-fundamentals.git myphoenix
+git clone https://github.com/mike-works/phoenix-fundamentals.git myphoenix
 ```
 * Then, go into the project and install dependencies
 ```sh

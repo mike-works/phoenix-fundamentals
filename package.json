@@ -1,7 +1,8 @@
 {
-  "repository": "https://github.com/mike-north/phoenix-fundamentals",
-  "private": true,
-  "license": "NOLICENSE",
+  "repository": "https://github.com/mike-works/phoenix-fundamentals",
+  "name": "mikeworks-phoenix",
+  "version": "0.0.0",
+  "license": "BSD-3-Clause",
   "scripts": {
     "deploy": "brunch build --production",
     "watch": "brunch watch --stdin"
