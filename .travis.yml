@@ -1,4 +1,6 @@
 language: elixir
+node_js:
+- 'stable'
 elixir:
   - 1.4.0
 otp_release:
@@ -6,5 +8,13 @@ otp_release:
 sudo: false
 addons:
   postgresql: 9.4
+  
+before_install:
+- npm install -g npm
+- npm install -g greenkeeper-lockfile@1
+
 before_script:
 - psql -c 'create database eblog_test;' -U postgres
+- greenkeeper-lockfile-update
+
+after_script: greenkeeper-lockfile-upload
