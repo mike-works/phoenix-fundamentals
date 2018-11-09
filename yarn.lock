@@ -51,12 +51,7 @@ ansi-styles@^3.2.1:
   dependencies:
     color-convert "^1.9.0"
 
-ansicolors@~0.3.2:
-  version "0.3.2"
-  resolved "https://registry.yarnpkg.com/ansicolors/-/ansicolors-0.3.2.tgz#665597de86a9ffe3aa9bfbe6cae5c6ea426b4979"
-  integrity sha1-ZlWX3oap/+Oqm/vmyuXG6kJrSXk=
-
-anymatch@^1.0.0, anymatch@^1.3.0, anymatch@~1.3, anymatch@~1.3.0:
+anymatch@^1.0.0, anymatch@~1.3.0:
   version "1.3.2"
   resolved "https://registry.yarnpkg.com/anymatch/-/anymatch-1.3.2.tgz#553dcb8f91e3c889845dfdba34c77721b90b9d7a"
   integrity sha512-0XNayC8lTHQ2OI8aljNCN3sSx6hsr/1+rlcDAotXJR7C1oZZHCNsfpbKwMjRA3Uqb5tF1Rae2oloTr4xpq+WjA==
@@ -64,7 +59,7 @@ anymatch@^1.0.0, anymatch@^1.3.0, anymatch@~1.3, anymatch@~1.3.0:
     micromatch "^2.1.5"
     normalize-path "^2.0.0"
 
-anymatch@^2.0.0:
+anymatch@^2.0, anymatch@^2.0.0:
   version "2.0.0"
   resolved "https://registry.yarnpkg.com/anymatch/-/anymatch-2.0.0.tgz#bcb24b4f37934d9aa7ac17b4adaf89e7c76ef2eb"
   integrity sha512-5teOsQWABXHHBFP9y3skS5P3d/WfWXpv3FUpy+LorMrNYaT9pI4oLMQX7jzQ2KklNpGpWHzdCXTDT2Y3XGlZBw==
@@ -853,24 +848,24 @@ brunch-skeletons@~0.1.4:
   resolved "https://registry.yarnpkg.com/brunch-skeletons/-/brunch-skeletons-0.1.5.tgz#2b35112b8c792d8f11087653d3fc8febf892375b"
   integrity sha1-KzURK4x5LY8RCHZT0/yP6/iSN1s=
 
-brunch@2.10.13:
-  version "2.10.13"
-  resolved "https://registry.yarnpkg.com/brunch/-/brunch-2.10.13.tgz#39098a73bf9b11faa06d742339f7f62f426b9564"
-  integrity sha512-4YDPahbVMrtPnANCsdZ1SlZYXC2sAwylZTbTBGCnczpWMidw2bNbJ0o1BCCWLZluVm2JajZV+YeksDRZkmA2Xg==
+brunch@2.10.17:
+  version "2.10.17"
+  resolved "https://registry.yarnpkg.com/brunch/-/brunch-2.10.17.tgz#f85fd02826c4078b04881d4537e5d817a817a04e"
+  integrity sha512-q3vkWORHYXwPd9gG1VMq23An6C0+Gywdvho/9PfbrsrpnmBaTNk50R/ES/Pz+6gUqTzFAssbLoJv1DOiPbblhQ==
   dependencies:
-    anymatch "~1.3"
+    anymatch "^2.0"
     anysort "~1.0"
     check-dependencies "~1.0.1"
     chokidar "^2"
     coffeescript "~1.12.7"
     commander "~2.9"
     commonjs-require-definition "~0.6.2"
-    debug "~2.2"
-    deppack "~0.7"
+    debug "^3.1.0"
+    deppack "~0.8"
     deps-install "~0.1"
     fcache "~0.3"
     init-skeleton "~1.0"
-    loggy "~1.0.2"
+    loggy "~1.0.3"
     micro-es7-shim "^0.1"
     micro-promisify "~0.1"
     mkdirp "~0.5"
@@ -1233,19 +1228,12 @@ debug@^2.1.2, debug@^2.3.3:
   dependencies:
     ms "2.0.0"
 
-debug@^3.1:
+debug@^3.1, debug@^3.1.0:
   version "3.2.6"
   resolved "https://registry.yarnpkg.com/debug/-/debug-3.2.6.tgz#e83d17de16d8a7efb7717edbe5fb10135eee629b"
   integrity sha512-mel+jf7nrtEl5Pn1Qx46zARXKDpBbvzezse7p7LqINmdoIk8PYP5SySaxEmYv6TZ0JyEKA1hsCId6DIhgITtWQ==
   dependencies:
     ms "^2.1.1"
-
-debug@~2.2:
-  version "2.2.0"
-  resolved "https://registry.yarnpkg.com/debug/-/debug-2.2.0.tgz#f87057e995b1a1f6ae6a4960664137bc56f039da"
-  integrity sha1-+HBX6ZWxofauaklgZkE3vFbwOdo=
-  dependencies:
-    ms "0.7.1"
 
 debug@~3.1.0:
   version "3.1.0"
@@ -1320,18 +1308,18 @@ depd@1.1.1, depd@~1.1.1:
   resolved "https://registry.yarnpkg.com/depd/-/depd-1.1.1.tgz#5783b4e1c459f06fa5ca27f991f3d06e7a310359"
   integrity sha1-V4O04cRZ8G+lyif5kfPQbnoxA1k=
 
-deppack@~0.7:
-  version "0.7.0"
-  resolved "https://registry.yarnpkg.com/deppack/-/deppack-0.7.0.tgz#fbb84f9a531ace2f28289092afc0568295c790b7"
-  integrity sha1-+7hPmlMazi8oKJCSr8BWgpXHkLc=
+deppack@~0.8:
+  version "0.8.0"
+  resolved "https://registry.yarnpkg.com/deppack/-/deppack-0.8.0.tgz#f3e2c6b6a5f928f657f45ea1d58b8d9cd0760a8f"
+  integrity sha512-qRlZZqgttzJTOJ1rnZibQbA07djSBtv5aLge2vA6XbytSw3BkChfUwRrdQ6XBvOY4d5wxbaTJ/oDNWHMDN4H8g==
   dependencies:
-    anymatch "^1.3.0"
+    anymatch "^2.0.0"
     async-each "^1.0.0"
     browser-resolve "^1.11.1"
     deep-assign "^2.0.0"
     detective "^4.3.1"
     glob "^7.0.3"
-    loggy "~0.3.0"
+    loggy "^1.0.3"
     micro-promisify "^0.1.1"
     node-browser-modules "^0.1.0"
     "true-case-path" "^1.0.2"
@@ -1823,11 +1811,6 @@ greenkeeper-lockfile@^1.12.0:
     lodash "^4.17.4"
     require-relative "^0.8.7"
     semver "^5.3.0"
-
-growl@~1.8.1:
-  version "1.8.1"
-  resolved "https://registry.yarnpkg.com/growl/-/growl-1.8.1.tgz#4b2dec8d907e93db336624dcec0183502f8c9428"
-  integrity sha1-Sy3sjZB+k9szZiTc7AGDUC+MlCg=
 
 has-ansi@^2.0.0:
   version "2.0.0"
@@ -2340,21 +2323,13 @@ lodash@^4.2.0:
   resolved "https://registry.yarnpkg.com/lodash/-/lodash-4.17.4.tgz#78203a4d1c328ae1d86dca6460e369b57f4055ae"
   integrity sha1-eCA6TRwyiuHYbcpkYONptX9AVa4=
 
-loggy@^1, loggy@~1.0.1, loggy@~1.0.2:
+loggy@^1, loggy@^1.0.3, loggy@~1.0.1, loggy@~1.0.3:
   version "1.0.4"
   resolved "https://registry.yarnpkg.com/loggy/-/loggy-1.0.4.tgz#651ed6cc27d5cf5057501ce6fb4a089f5e41d9a2"
   integrity sha512-cNqUcV6oNLa1kemACNB420Hze4xREnnxfJZ2/EV6aGG6WXW481//DatmJTCyrfEICN0rOLV2NhR/3OFRJcJR7A==
   dependencies:
     colorette "^1.0.1"
     native-notifier "~0.1.0"
-
-loggy@~0.3.0:
-  version "0.3.5"
-  resolved "https://registry.yarnpkg.com/loggy/-/loggy-0.3.5.tgz#33f12801b1f6063966ea79d9b6a25db8fcbc4107"
-  integrity sha1-M/EoAbH2Bjlm6nnZtqJduPy8QQc=
-  dependencies:
-    ansicolors "~0.3.2"
-    growl "~1.8.1"
 
 longest@^1.0.1:
   version "1.0.1"
@@ -2534,11 +2509,6 @@ mout@^1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/mout/-/mout-1.0.0.tgz#9bdf1d4af57d66d47cb353a6335a3281098e1501"
   integrity sha1-m98dSvV9ZtR8s1OmM1oygQmOFQE=
-
-ms@0.7.1:
-  version "0.7.1"
-  resolved "https://registry.yarnpkg.com/ms/-/ms-0.7.1.tgz#9cd13c03adbff25b65effde7ce864ee952017098"
-  integrity sha1-nNE8A62/8ltl7/3nzoZO6VIBcJg=
 
 ms@2.0.0:
   version "2.0.0"
