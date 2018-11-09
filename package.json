@@ -8,13 +8,13 @@
     "watch": "brunch watch --stdin"
   },
   "devDependencies": {
-    "@mike-works/js-lib-renovate-config": "^2.0.0",
-    "babel-brunch": "~6.1.1",
+    "@mike-works/js-lib-renovate-config": "2.0.0",
+    "babel-brunch": "6.1.1",
     "brunch": "2.10.17",
-    "clean-css-brunch": "~2.10.0",
-    "css-brunch": "~2.10.0",
-    "greenkeeper-lockfile": "^1.12.0",
-    "javascript-brunch": "~2.10.0",
-    "uglify-js-brunch": "~2.10.0"
+    "clean-css-brunch": "2.10.0",
+    "css-brunch": "2.10.0",
+    "greenkeeper-lockfile": "1.15.1",
+    "javascript-brunch": "2.10.0",
+    "uglify-js-brunch": "2.10.0"
   }
 }
