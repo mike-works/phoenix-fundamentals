@@ -31,13 +31,13 @@ defmodule Eblog.Mixfile do
   # Type `mix help deps` for examples and options.
   defp deps do
     [{:phoenix, "== 1.6.10"},
-     {:phoenix_pubsub, "~> 1.0"},
-     {:phoenix_ecto, "~> 3.0"},
-     {:postgrex, ">= 0.0.0"},
-     {:phoenix_html, "~> 2.6"},
-     {:phoenix_live_reload, "~> 1.0", only: :dev},
+     {:phoenix_pubsub, "== 1.1.2"},
+     {:phoenix_ecto, "== 3.6.0"},
+     {:postgrex, "== 0.16.3"},
+     {:phoenix_html, "== 2.14.3"},
+     {:phoenix_live_reload, "== 1.3.3", only: :dev},
      {:gettext, "== 0.19.1"},
-     {:cowboy, "~> 1.0"}]
+     {:cowboy, "== 1.1.2"}]
   end
 
   # Aliases are shortcuts or tasks specific to the current project.
