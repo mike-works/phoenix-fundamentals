@@ -32,7 +32,7 @@ defmodule Eblog.Mixfile do
   defp deps do
     [{:phoenix, "== 1.6.10"},
      {:phoenix_pubsub, "== 1.1.2"},
-     {:phoenix_ecto, "== 3.6.0"},
+     {:phoenix_ecto, "== 4.4.3"},
      {:postgrex, "== 0.16.5"},
      {:phoenix_html, "== 2.14.3"},
      {:phoenix_live_reload, "== 1.3.3", only: :dev},
