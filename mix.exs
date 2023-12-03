@@ -30,7 +30,7 @@ defmodule Eblog.Mixfile do
   #
   # Type `mix help deps` for examples and options.
   defp deps do
-    [{:phoenix, "== 1.6.10"},
+    [{:phoenix, "== 1.6.16"},
      {:phoenix_pubsub, "== 1.1.2"},
      {:phoenix_ecto, "== 3.6.0"},
      {:postgrex, "== 0.16.5"},
