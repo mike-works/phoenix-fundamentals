@@ -37,7 +37,7 @@ defmodule Eblog.Mixfile do
      {:phoenix_html, "== 2.14.3"},
      {:phoenix_live_reload, "== 1.3.3", only: :dev},
      {:gettext, "== 0.19.1"},
-     {:cowboy, "== 1.1.2"}]
+     {:cowboy, "== 2.12.0"}]
   end
 
   # Aliases are shortcuts or tasks specific to the current project.
