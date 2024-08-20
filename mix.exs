@@ -36,7 +36,7 @@ defmodule Eblog.Mixfile do
      {:postgrex, "== 0.16.5"},
      {:phoenix_html, "== 2.14.3"},
      {:phoenix_live_reload, "== 1.3.3", only: :dev},
-     {:gettext, "== 0.19.1"},
+     {:gettext, "== 0.26.1"},
      {:cowboy, "== 1.1.2"}]
   end
 
